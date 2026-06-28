@@ -57,8 +57,7 @@ if "model"    not in st.session_state: st.session_state.model    = SimpleModel()
 if "data"     not in st.session_state: st.session_state.data     = []
 if "trained"  not in st.session_state: st.session_state.trained  = False
 
-st.title(" علّم الكمبيوتر بنفسك!")
-st.markdown("أنت المعلم! أدخل بيانات الطلاب وعلّم النموذج كيف يتنبأ.")
+st.title("   Student Performance Predictor")
 
 st.header(" الخطوة ١ — أدخل بيانات الطلاب")
 st.caption("كلما أدخلت بيانات أكثر، كلما تعلّم النموذج أفضل!")
